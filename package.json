@@ -1,0 +1,11 @@
+{
+  "name": "sls-signer",
+  "description": "",
+  "version": "0.1.0",
+  "dependencies": {},
+  "devDependencies": {
+    "serverless": "^1.72.0",
+    "serverless-dotenv-plugin": "^2.4.2",
+    "serverless-offline": "^6.4.0"
+  }
+}
