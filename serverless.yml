@@ -33,4 +33,6 @@ plugins:
   # When you deploy your app to staging using `sls deploy --stage staging` the loaded file will be '.env.staging'
   # When you deploy your app to production using `sls deploy --stage prod` the loaded file will be '.env.prod'
   # When the test are executed Gradle will load the env vars from '.env.test'
+  # If you want use a diferent stage names to deploy your app, you need to change the env files extension to
+  # match with the new stage names.
   - serverless-dotenv-plugin
