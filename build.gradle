@@ -9,18 +9,13 @@ sourceCompatibility = 1.11
 targetCompatibility = 1.11
 
 dependencies {
-    //implementation platform('software.amazon.awssdk:bom:2.13.32')
-    //implementation 'software.amazon.awssdk:s3'
-
     compile fileTree(include: ['*.jar'], dir: 'libs')
-    compile group: 'com.amazonaws', name: 'aws-java-sdk-s3', version: '1.11.797'
+
     compile (
         'com.amazonaws:aws-lambda-java-core:1.1.0',
         'com.fasterxml.jackson.core:jackson-core:2.9.10',
         'com.fasterxml.jackson.core:jackson-databind:2.9.10',
         'com.fasterxml.jackson.core:jackson-annotations:2.9.10',
-        'org.apache.commons:commons-lang3:3.10',
-        'commons-codec:commons-codec:1.14',
     )
 
     testImplementation('org.junit.jupiter:junit-jupiter-api:5.4.2')
